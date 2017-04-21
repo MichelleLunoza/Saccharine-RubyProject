@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
 	color: #777;
-	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 p {
@@ -81,8 +81,7 @@ header {
 	height: 120px;
   position: fixed;
   background-color: #f5f5f5;
-
-
+  width: 100% !important;
 }
 
 header h1 {
@@ -103,7 +102,8 @@ header nav {
 header nav ul li {
 	float: left;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 40px;
+  margin-right: 50px;
 }
 
 header nav ul li a {
@@ -115,13 +115,13 @@ header nav ul li a {
 
 }
 #dessert-video{
-	height: 580px;
-	padding-top: 150px;
+	height: 500px;
+	padding-top: 220px;
 	background: #e8eced url('/assets/dessert.mp4') repeat center;
 }
 
 #hero-image h2 {
-	margin: 180px 0 40px 0;
+	margin: 190px 0 40px 0;
 }
 
 .button-1 {
@@ -142,31 +142,30 @@ header nav ul li a {
 	color: #fff;
 }
 #features ul {
-	margin: 80px 0;
+	margin: 100px 0;
 }
 
 #features ul li {
 	width: 280px;
-	padding-top: 10px;
+	padding-top: 80px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 	text-align: center;
 	padding-bottom: 50px;
 }
 
 #features ul li.feature-1 {
-	background: url('/assets/mm.png') no-repeat top center;
+	background: url('/assets/candy.png') no-repeat top center;
 }
 #features ul li.feature-2 {
-	background: url('/assets/mm.png') no-repeat top center;
+	background: url('/assets/dessert.png') no-repeat top center;
 }
 #features ul li.feature-3 {
-	background: url('/assets/mm.png') no-repeat top center;
+	background: url('/assets/happy.png') no-repeat top center;
 }
 
 #primary-content {
 	background-color: #f8fafa;
-	padding: 30px 0;
 	text-align: center;
 }
 
@@ -183,7 +182,7 @@ header nav ul li a {
 }
 
 #secondary-content {
-	padding: 60px 0;
+	padding: 20px 0;
 	text-align: center;
 }
 
@@ -253,7 +252,8 @@ article h4 {
 }
 #top-dessert {
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 #footer-info {
 	width: 380px;

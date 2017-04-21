@@ -1,4 +1,3 @@
-config.assets.paths << "#{Rails.root}/app/assets/videos"
 require_relative 'boot'
 
 require 'rails/all'
