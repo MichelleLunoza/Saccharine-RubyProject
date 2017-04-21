@@ -114,10 +114,10 @@ header nav ul li a {
 	margin-right: 20px;
 
 }
-#hero-image {
+#dessert-video{
 	height: 580px;
 	padding-top: 150px;
-	background: #e8eced url('../images/hero.jpg') no-repeat center;
+	background: #e8eced url('/assets/dessert.mp4') repeat center;
 }
 
 #hero-image h2 {
@@ -155,18 +155,18 @@ header nav ul li a {
 }
 
 #features ul li.feature-1 {
-	background: url('../images/features-icon-1.png') no-repeat top center;
+	background: url('/assets/mm.png') no-repeat top center;
 }
 #features ul li.feature-2 {
-	background: url('../images/features-icon-2.png') no-repeat top center;
+	background: url('/assets/mm.png') no-repeat top center;
 }
 #features ul li.feature-3 {
-	background: url('../images/features-icon-3.png') no-repeat top center;
+	background: url('/assets/mm.png') no-repeat top center;
 }
 
 #primary-content {
 	background-color: #f8fafa;
-	padding: 60px 0;
+	padding: 30px 0;
 	text-align: center;
 }
 
@@ -175,7 +175,7 @@ header nav ul li a {
 	margin: 0 auto 20px auto;
 	width: 400px;
 	border-bottom: 1px solid #02b8dd;
-	padding: 10px 0 20px 0;
+	padding: 0px 0 20px 0;
 }
 
 #primary-content a img {
@@ -222,7 +222,6 @@ article h4 {
 	color: #fff;
 }
 #cta {
-	padding: 60px 0;
 	text-align: center;
 }
 
@@ -231,7 +230,7 @@ article h4 {
 	margin: 0 auto 20px auto;
 	width: 400px;
 	border-bottom: 1px solid #02b8dd;
-	padding: 180px 0 20px 20px;
+	padding: 150px 0 20px 20px;
   margin-bottom: 50px;
 }
 
@@ -252,7 +251,10 @@ article h4 {
 	background-color: #02b8dd;
 	color: #fff;
 }
-
+#top-dessert {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
 #footer-info {
 	width: 380px;
   padding-top: 100px;
