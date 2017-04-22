@@ -114,16 +114,26 @@ header nav ul li a {
 	margin-right: 20px;
 
 }
-#dessert-video{
-	height: 500px;
+#dessert-video {
+	height: 480px;
 	padding-top: 220px;
-	background: #e8eced url('/assets/dessert.mp4') repeat center;
+	background: #e8eced no repeat;
+}
+#dessert-video h2 {
+	margin: 50px 0 40px 0;
 }
 
-#hero-image h2 {
-	margin: 190px 0 40px 0;
+.video {
+    position: fixed !important;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
 }
-
 .button-1 {
 	display: block;
 	text-align: center;
