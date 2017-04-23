@@ -290,3 +290,17 @@ article h4 {
 .features-list {
 	list-style-type: none;
 }
+
+.lwing {
+	float: left;
+	position: absolute;
+	margin-left: -170px;
+	margin-top: 25px;
+}
+
+.rwing{
+	float: right;
+	position: absolute;
+	margin-left: 65%;
+    margin-top: 25px;
+}
