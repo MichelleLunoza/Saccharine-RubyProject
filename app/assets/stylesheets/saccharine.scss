@@ -139,7 +139,8 @@ header nav ul li a {
 .button-1 {
 	display: block;
 	text-align: center;
-	background: #444;
+	background: transparent;
+	border: 1px solid white;
 	border-radius: 3px;
 	color: #fff;
 	width: 180px;
@@ -150,7 +151,7 @@ header nav ul li a {
 }
 
 .button-1:hover {
-	background-color: #02b8dd;
+	background-color: #eb1797;
 	color: #fff;
 }
 #features ul {
