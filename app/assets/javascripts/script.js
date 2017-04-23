@@ -8,7 +8,7 @@ $(document).ready(function(){
 	console.log(pos);
 	x.scroll(function(){
 		console.log(x.scrollTop());
-		if(x.scrollTop() >= 400) {
+		if(x.scrollTop() >= 117) {
 			$('.video-header').fadeOut();
 		}
 		else if(x.scrollTop() == 0){
