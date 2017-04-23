@@ -12,7 +12,7 @@ p {
 h1 {
 	font-family: 'Crete Round', serif;
 	font-weight: bold;
-	color: #444;
+	color: #eb1797;
 	font-size: 45px;
 	margin-bottom: 20px;
 }
@@ -80,7 +80,7 @@ small {
 header {
   height: 100px;
   position: fixed;
-  background-color: #f5f5f5;
+  background-color: black; /* #f5f5f5 */
   left: 0px;
   top: 0px;
   width: 100% !important;
@@ -109,7 +109,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: #444;
+	color: white;/* #444 */
 	text-transform: uppercase;
 	font-weight: bold;
 	display: block;
@@ -268,9 +268,17 @@ article h4 {
   margin-bottom: 100px;
 }
 #footer-info {
-	width: 380px;
+  width: 380px;
   padding-top: 100px;
-	margin-top: 30px;
+  margin-top: 30px;
   margin-left: 280px;
   text-align: center;
+}
+
+.header-logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-top: 15px;
+    margin-left: 34px;
 }
