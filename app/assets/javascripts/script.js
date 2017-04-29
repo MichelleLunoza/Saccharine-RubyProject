@@ -10,9 +10,11 @@ $(document).ready(function(){
 		console.log(x.scrollTop());
 		if(x.scrollTop() >= 117) {
 			$('.video-header').fadeOut();
+			$('header').css('background-color','black');
 		}
 		else if(x.scrollTop() == 0){
 			$('.video-header').fadeIn();
+			$('header').css('background-color','transparent');
 		}
 	});
 });
