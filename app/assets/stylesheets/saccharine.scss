@@ -112,7 +112,7 @@ header nav ul li {
 
 header nav ul li a {
 	color: white;/* #444 */
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: bold;
 	display: block;
 	margin-right: 20px;
@@ -249,7 +249,7 @@ article h4 {
 	width: 400px;
 	border-bottom: 1px solid #eb1797;
 	padding: 150px 0 20px 20px;
-  margin-bottom: 50px;
+ 	margin-bottom: 50px;
 }
 
 .button-2 {
@@ -306,4 +306,8 @@ article h4 {
 	position: absolute;
 	margin-left: 65%;
     margin-top: 25px;
+}
+
+a.oval-hover {
+	font-size: 20px;
 }
