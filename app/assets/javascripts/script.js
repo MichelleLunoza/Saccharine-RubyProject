@@ -14,7 +14,7 @@ $(document).ready(function(){
 		}
 		else if(x.scrollTop() == 0){
 			$('.video-header').fadeIn();
-			$('header').css('background-color','transparent');
+			$('header').css('background-color','rgba(0,0,0,0.2)');
 		}
 	});
 });
