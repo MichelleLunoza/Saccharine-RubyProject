@@ -91,7 +91,7 @@ header h1 {
   float: left;
   margin-top: 32px;
   position: fixed;
-  margin-left: 100px;
+  margin-left: -30px;
 }
 
 header h1 .color {
@@ -100,6 +100,7 @@ header h1 .color {
 
 header nav {
 	float: right;
+	margin-right: -150px;
 }
 
 header nav ul li {
@@ -286,7 +287,7 @@ article h4 {
 	width: 70px;
 	float: left;
 	margin-top: 10px;
-    margin-left: 34px;
+    margin-left: -100px;
 }
 
 .features-list {
