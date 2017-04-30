@@ -21,9 +21,10 @@ $(document).ready(function(){
 
 var image_dir = [
 	'/assets/Leche-Flan.jpg',
-	'/assets/ube-halaya.jpg',
+	'/assets/ube_halaya.jpg',
 	'/assets/Puto.jpg'
 ];
+
 var y = 0;
 setInterval(function(){
 	if(y > image_dir.length){
@@ -33,9 +34,7 @@ setInterval(function(){
 		var slider = document.getElementById('image-slider');
 		if(image_dir[y] != undefined){
 			slider.setAttribute('src',image_dir[y]);
-			console.log(slider);
 		}
 		y++;
-	}
-	
+	}	
 },3000);
