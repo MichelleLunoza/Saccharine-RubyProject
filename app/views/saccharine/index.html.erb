@@ -7,71 +7,71 @@
 
 <body>
   <header>
-  	<div class="wrapper">
-  		<%= image_tag("/assets/logo.png", alt:"logo",class:"header-logo") %>
+    <div class="wrapper">
+      <%= image_tag("/assets/logo.png", alt:"logo",class:"header-logo") %>
       <h1> 
         Saccharine<span class="color">.</span>
       </h1>
 
-  		<nav>
-  			<ul>
-  				<li><a href="#" class="oval-hover">Home<div></a></li>
-  				<li><a href="#" class="oval-hover">Portfolio</a></li>
-  				<li><a href="#" class="oval-hover">Contact</a></li>
-  				<li><a href="#" class="oval-hover">Blog</a></li>
-  			</ul>
-  		</nav>
-  	</div>
+      <nav>
+        <ul>
+          <li><a href="#" class="oval-hover">Home<div></a></li>
+          <li><a href="#" class="oval-hover">Portfolio</a></li>
+          <li><a href="#" class="oval-hover">Contact</a></li>
+          <li><a href="#" class="oval-hover">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <div id="dessert-video">
-  	<div class="wrapper">
+    <div class="wrapper">
       <%= video_tag("dessert-video.mp4", autoplay:"true",loop:true,muted:true,class:"video video-header") %>
-  		<h2>
+      <h2>
         <strong>
           Let the sweet tooth</strong><br/>
-  		    be satisfied
+          be satisfied
       </h2>
-  		<a href="#" class="button-1">Get Started</a>
-  	</div>
+      <a href="#" class="button-1">Get Started</a>
+    </div>
   </div>
 
   <div id="features">
-  	<div class="wrapper">
-  		<ul class="features-list">
-  			<li class="feature-1">
-  				<h4>Sweet</h4>
-  				<p>The sweet taste promotes happiness,contentment,calmness,<br/>cheerfulness,love and satisfaction in the mind.</p>
-  			</li>
+    <div class="wrapper">
+      <ul class="features-list">
+        <li class="feature-1">
+          <h4>Sweet</h4>
+          <p>The sweet taste promotes happiness,contentment,calmness,<br/>cheerfulness,love and satisfaction in the mind.</p>
+        </li>
 
-  			<li class="feature-2">
-  				<h4>Obsession</h4>
-  				<p>My problem is <strong style="color:#eb1797"> desserts</strong>. I am obsessed with the desserts.</p>
-  			</li>
+        <li class="feature-2">
+          <h4>Obsession</h4>
+          <p>My problem is <strong style="color:#eb1797"> desserts</strong>. I am obsessed with the desserts.</p>
+        </li>
 
-  			<li class="feature-3">
-  				<h4>Happy</h4>
-  				<p>Happiness is knowing there is cake in the oven.</p>
-  			</li>
-  			<div class="clear"></div>
-  		</ul>
-  	</div>
+        <li class="feature-3">
+          <h4>Happy</h4>
+          <p>Happiness is knowing there is cake in the oven.</p>
+        </li>
+        <div class="clear"></div>
+      </ul>
+    </div>
   </div>
 
   <div id="primary-content">
-	<div class="wrapper">
+  <div class="wrapper">
     <br/>
-		<article>
-			<h3>Filipinos Top Desserts</h3>
+    <article>
+      <h3>Filipinos Top Desserts</h3>
       <br/><br/>
-			<p>   
+      <p>   
             All Filipinos seem to be born with a sweet tooth,
             and most of us never really outgrow it.
             We're never too old for a candy bar or a rich filled doughnut.
             That's why desserts have always been a big part of Filipino cuisine.
             For many of us, a meal isn't a meal without something cold and sweet to top it off.
             It doesn't matter if your meal consists of rice and dried fish; without dessert, it's simply not complete.
-      		  All Filipinos seem to be born with a sweet tooth, and most of us never really outgrow it.
+            All Filipinos seem to be born with a sweet tooth, and most of us never really outgrow it.
             We're never too old for a candy bar or a rich filled doughnut. That's why desserts have always been a big part of Filipino cuisine.
             For many of us, a meal isn't a meal without something cold and sweet to top it off. It doesn't matter if your meal consists of rice and dried fish;
             without dessert, it's simply not complete.
@@ -80,80 +80,84 @@
             Whether you have a sweet tooth or not, these desserts will definitely give you a taste of the Philippines. 
       </p>
       <div id="top-dessert">
-        <%= image_tag("/assets/Leche-Flan.jpg", alt: "Leche Flan") %>
+        <div class="slider-content">
+          <div class="left-button">Left</div>
+            <%= image_tag("",id:"image-slider") %>
+          <div class="right-button">Right</div>
+        </div>
       </div>
-		</article>
-	</div>
+    </article>
+  </div>
 </div>
 
 <div id="secondary-content">
-	<div class="wrapper">
-		<article style="background-image: url('assets/Buko-Salad.jpg');">
-			<div class="overlay">
-				<h4>Buko Salad</h4>
-				<p><small>Another crowd favorite, every Filipino family has their own version of buko or coconut salad.
+  <div class="wrapper">
+    <article style="background-image: url('assets/Buko-Salad.jpg');">
+      <div class="overlay">
+        <h4>Buko Salad</h4>
+        <p><small>Another crowd favorite, every Filipino family has their own version of buko or coconut salad.
           When making this, use young coconut.</small></p>
-				<a href="#" class="more-link">View more</a>
-			</div>
-		</article>
+        <a href="#" class="more-link">View more</a>
+      </div>
+    </article>
 
-		<article style="background-image: url('assets/Biko.jpg');">
-			<div class="overlay">
-				<h4>Biko</h4>
-				<p><small>Biko, is made with sticky rice, coconut milk, and brown sugar.
+    <article style="background-image: url('assets/Biko.jpg');">
+      <div class="overlay">
+        <h4>Biko</h4>
+        <p><small>Biko, is made with sticky rice, coconut milk, and brown sugar.
           The rice is prepared and cooked first before the coconut-sugar mixture is made.</small></p>
-				<a href="#" class="more-link">View more</a>
-			</div>
-		</article><div class="clear"></div>
-	</div>
+        <a href="#" class="more-link">View more</a>
+      </div>
+    </article><div class="clear"></div>
+  </div>
 </div>
 
 <br/><br/><br/><br/>
 
 <div id="secondary-content">
-	<div class="wrapper">
-		<article style="background-image: url('assets/Yema.jpg');">
-			<div class="overlay">
-				<h4>Yema</h4>
-				<p><small>A very soft and gooey custard candy that was created in the Philippines during the
+  <div class="wrapper">
+    <article style="background-image: url('assets/Yema.jpg');">
+      <div class="overlay">
+        <h4>Yema</h4>
+        <p><small>A very soft and gooey custard candy that was created in the Philippines during the
           time of our Spanish colonizers is called <strong>Yema.</strong></small></p>
-				<a href="#" class="more-link">View more</a>
-			</div>
-		</article>
+        <a href="#" class="more-link">View more</a>
+      </div>
+    </article>
 
-		<article style="background-image: url('assets/halo_halo.jpg');">
-			<div class="overlay">
-				<h4>Halo-halo</h4>
-				<p><small> is a popular Filipino dessert with mixtures
+    <article style="background-image: url('assets/halo_halo.jpg');">
+      <div class="overlay">
+        <h4>Halo-halo</h4>
+        <p><small> is a popular Filipino dessert with mixtures
           of shaved ice and evaporated milk to which are added
           various ingredients like beans,gulaman and etc.</small></p>
-				<a href="#" class="more-link">View more</a>
-			</div>
-		</article><div class="clear"></div>
-	</div>
+        <a href="#" class="more-link">View more</a>
+      </div>
+    </article><div class="clear"></div>
+  </div>
 </div>
 
 <div id="cta">
-	<div class="wrapper">
-		<h3>There's More!</h3>
+  <div class="wrapper">
+    <h3>There's More!</h3>
       <p>
         There’s always room for dessert. Whether you’re in a fancy restaurant or a karinderya down the road, there’s usually something sweet on the menu.
         Filipino desserts, like our culture, is a mixture of different influences.
 
     </p>
     <br/><br/>
-		<a href="#" class="button-2">View More</a>
-	</div>
+    <a href="#" class="button-2">View More</a>
+  </div>
 </div>
 
 
 <footer>
-	<div class="wrapper">
-		<div id="footer-info">
-			<p>Copyright 2017. All rights reserved.</p>
-			<p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
-		</div>
-	</div>
+  <div class="wrapper">
+    <div id="footer-info">
+      <p>Copyright 2017. All rights reserved.</p>
+      <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+    </div>
+  </div>
 </footer>
 
 </body>
