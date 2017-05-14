@@ -346,3 +346,32 @@ div.slider-content {
 #more-quote, #footer-info, nav {
 	font-size: 16px;
 }
+
+
+/* Responsive Sections */
+@media (max-width: 412px){
+	header , .wrapper, #primary-content .wrapper, #primary-content .wrapper div#top-dessert div.slider-content, footer {
+		width: 412px !important;
+	}
+
+	.header-logo {
+		align: center;
+		margin-left: 50px;
+	}
+
+	#header-text {
+		margin-left: 140px !important;
+	}
+
+	nav {
+		position: absolute;
+		margin-top: 35px;
+		font-weight: small;
+		margin-left: 19px;
+		font-size: 1px !important;
+	}
+
+	nav ul li {
+		margin-right: 0px !important;
+	}
+}
