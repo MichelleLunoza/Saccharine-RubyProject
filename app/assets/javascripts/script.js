@@ -10,7 +10,8 @@ $(document).ready(function(){
 		// console.log(x.scrollTop());
 		if(x.scrollTop() >= 117) {
 			$('.video-header').fadeOut();
-			$('header').css('background-color','black');
+			$('header').css('background-color','#A37E58');
+			$('h1#header-text').css('color','white');
 		}
 		else if(x.scrollTop() == 0){
 			$('.video-header').fadeIn();
