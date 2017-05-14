@@ -22,7 +22,23 @@ $(document).ready(function(){
 var image_dir = [
 	'/assets/Leche-Flan.jpg',
 	'/assets/ube_halaya.jpg',
-	'/assets/Puto.jpg'
+	'/assets/Puto.jpg',
+	'/assets/Biko.jpg',
+	'/assets/Buko-pandan.jpg',
+	'/assets/buko-pie.jpg',
+	'/assets/Buko-Salad.jpg',
+	'/assets/Salad.jpg',
+	'/assets/Cassava-Cake.jpg',
+	'/assets/ensaymada.jpg',
+	'/assets/Cathedral-Window-Jelly-Dessert.jpg',
+	'/assets/Halo_halo.jpg',
+	'/assets/Halo_halo2.jpg',
+	'/assets/Kutsinta.jpg',
+	'/assets/Maja-Blanca.jpg',
+	'/assets/Pastillas.jpg',
+	'/assets/Polvoron.jpg',
+	'/assets/Yema.jpg',
+	'/assets/yema_cake.jpg'
 ];
 
 var y = 0;
@@ -31,9 +47,15 @@ setInterval(function(){
 		y = 0;
 	}
 	else{
-		var slider = document.getElementById('image-slider');
+		var slider = $('#image-slider');
+		// var slider = document.getElementById('image-slider');
 		if(image_dir[y] != undefined){
-			slider.setAttribute('src',image_dir[y]);
+			slider.fadeIn(2000,function(){
+				$(this).attr('src',image_dir[y]).fadeOut(3000);
+			});
+		}
+		else{
+			slider.attr('src','/assets/bibingka.jpg');
 		}
 		y++;
 	}	
