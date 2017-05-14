@@ -85,6 +85,7 @@ header {
   left: 0px;
   top: -5px;
   width: 100% !important;
+  z-index: 1 !important;
 }
 
 header h1 {
@@ -339,5 +340,4 @@ div.right-button {
 #image-slider {
 	height: 450px;
 	width: 100%;
-	z-index: -1;
 } 
