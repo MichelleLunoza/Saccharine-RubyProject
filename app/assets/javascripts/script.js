@@ -62,10 +62,9 @@ setInterval(function(){
 },3000);
 
 
-
-
 $(document).ready(function(){
 	// Reset Scrolling when not top and loaded
 	$('body, html').animate({'scrollTop': 0},1);
 });
 
+$('.video-header').attr('muted',true);
