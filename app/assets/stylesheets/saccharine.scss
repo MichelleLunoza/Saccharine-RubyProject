@@ -296,6 +296,7 @@ article h4 {
 
 .features-list {
 	list-style-type: none;
+	font-size: 16px;
 }
 
 .lwing {
@@ -340,4 +341,8 @@ div.slider-content {
 #primary-content, body{
 	font-family:'Conv_GochiHand-Regular',Sans-Serif;
 	font-weight: normal;
+}
+
+#more-quote, #footer-info, nav {
+	font-size: 16px;
 }
