@@ -51,8 +51,8 @@ setInterval(function(){
 		var slider = $('#image-slider');
 		// var slider = document.getElementById('image-slider');
 		if(image_dir[y] != undefined){
-			slider.fadeIn(2000,function(){
-				$(this).attr('src',image_dir[y]).fadeOut(3000);
+			slider.fadeOut(2000,function(){
+				$(this).attr('src',image_dir[y]).fadeIn(3000);
 			});
 		}
 		else{
