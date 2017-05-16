@@ -349,7 +349,7 @@ div.slider-content {
 
 
 /* Responsive Sections */
-@media (max-width: 412px){
+@media (max-width: 450px){
 	/* Adjust major width*/
 	body, header , .wrapper, #primary-content .wrapper, #primary-content .wrapper div#top-dessert, #dessert-video {
 		width: 412px !important;
@@ -383,6 +383,28 @@ div.slider-content {
 		font-weight: small;
 		margin-left: 19px;
 		font-size: 1px !important;
+	}
+
+	/* Center text */
+	#text-content {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	/* Adjust margin */
+	li h4 {
+		margin-top: 50px;
+	}
+
+	/* Adjust secondary contents */
+	div#secondary-content article {
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 24px;
+	}
+
+	li.feature-1, li.feature-2, li.feature-3 {
+		margin-left: 20px;
 	}
 
 	/* Remove margin on navigations */
