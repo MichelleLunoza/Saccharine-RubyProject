@@ -355,11 +355,16 @@ a.more-link {
 
 
 /* Responsive Sections */
-@media (max-width: 450px){
+@media (max-width: 451px){
 	/* Adjust major width*/
-	body, header , .wrapper, #primary-content .wrapper, #primary-content .wrapper div#top-dessert, #dessert-video {
-		width: 412px !important;
+	body ,header , .wrapper,  #dessert-video, div#top-dessert{
+		width: 450px !important;
 	}
+
+	#primary-content {
+		width: 430px !important;
+	}
+
 
 	/* Adjust dessert width */
 	div#top-dessert {
@@ -367,19 +372,24 @@ a.more-link {
 	}
 	/* Adjust slider content*/
 	div.slider-content {
-		margin-left: 20px;
+		margin-left: 24px;
 		width: 370px !important;
 	}
 
 	/* Adjust logo */
 	.header-logo {
-		margin-left: 50px;
+		margin-left: 80px;
 		margin-top: 1px;
 	}
 
 	/* Adjust header text */
 	#header-text {
-		margin-left: 120px !important;
+		margin-left: 150px !important;
+	}
+
+	/* Remove margin on navigations */
+	nav ul li {
+		margin-right: 0px !important;
 	}
 
 	/* Adjust navigations home etc*/
@@ -387,14 +397,20 @@ a.more-link {
 		position: absolute;
 		margin-top: 35px;
 		font-weight: small;
-		margin-left: 19px;
+		margin-left: 44px;
 		font-size: 1px !important;
+	}
+
+	/* Feature sections */
+	li.feature-1, li.feature-2, li.feature-3 {
+		margin-left: 30px;
 	}
 
 	/* Center text */
 	#text-content {
-		width: 320px;
+		width: 380px;
 		margin: 0 auto;
+		margin-left: 22px;
 	}
 
 	/* Adjust margin */
@@ -406,15 +422,7 @@ a.more-link {
 	div#secondary-content article {
 		width: 360px;
 		margin-top: 10px;
-		margin-left: 24px;
+		margin-left: 1px;
 	}
 
-	li.feature-1, li.feature-2, li.feature-3 {
-		margin-left: 20px;
-	}
-
-	/* Remove margin on navigations */
-	nav ul li {
-		margin-right: 0px !important;
-	}
 }
