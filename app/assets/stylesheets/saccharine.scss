@@ -222,7 +222,7 @@ header nav ul li a {
 
 #secondary-content article .overlay {
 	background: rgba(255, 255, 255, .95);
-	height: 230px;
+	height: 400px;
 	width: 190px;
 	padding: 20px;
 }
@@ -345,6 +345,12 @@ div.slider-content {
 
 #more-quote, #footer-info, nav {
 	font-size: 16px;
+}
+
+a.more-link {
+	position: absolute;
+	margin-top: -17px !important;
+	margin-left:  -50px !important;
 }
 
 
