@@ -353,6 +353,9 @@ a.more-link {
 	margin-left:  -50px !important;
 }
 
+div#footer {
+	margin-top: 100px !important;
+}
 
 /* Responsive Sections */
 @media (max-width: 451px){
@@ -424,6 +427,10 @@ a.more-link {
 	/* Adjust margin */
 	li h4 {
 		margin-top: 50px;
+	}
+
+	div#footer{
+		width: 420px !important;
 	}
 
 	/* Adjust secondary contents */
