@@ -350,19 +350,33 @@ div.slider-content {
 
 /* Responsive Sections */
 @media (max-width: 412px){
-	header , .wrapper, #primary-content .wrapper, #primary-content .wrapper div#top-dessert div.slider-content, footer {
+	/* Adjust major width*/
+	body, header , .wrapper, #primary-content .wrapper, #primary-content .wrapper div#top-dessert, #dessert-video {
 		width: 412px !important;
 	}
 
+	/* Adjust dessert width */
+	div#top-dessert {
+		width: 300px !important;
+	}
+	/* Adjust slider content*/
+	div.slider-content {
+		margin-left: 20px;
+		width: 370px !important;
+	}
+
+	/* Adjust logo */
 	.header-logo {
-		align: center;
 		margin-left: 50px;
+		margin-top: 1px;
 	}
 
+	/* Adjust header text */
 	#header-text {
-		margin-left: 140px !important;
+		margin-left: 120px !important;
 	}
 
+	/* Adjust navigations home etc*/
 	nav {
 		position: absolute;
 		margin-top: 35px;
@@ -371,6 +385,7 @@ div.slider-content {
 		font-size: 1px !important;
 	}
 
+	/* Remove margin on navigations */
 	nav ul li {
 		margin-right: 0px !important;
 	}
