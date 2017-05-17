@@ -357,8 +357,12 @@ div#footer {
 	margin-top: 100px !important;
 }
 
+body{
+	overflow-x: hidden !important;
+}
+
 /* Responsive Sections */
-@media (max-width: 451px){
+@media screen and (max-width: 451px){
 	/* Adjust major width*/
 	body ,header , .wrapper,  #dessert-video, div#top-dessert{
 		width: 450px !important;
@@ -445,8 +449,57 @@ div#footer {
 	}
 }
 
+@media screen and (max-width: 501px) and (min-width: 452px){
+	#header-text {
+		margin-left: 150px !important;
+	}
 
-@media (max-width: 601px){
+	.header-logo {
+		margin-left: 80px !important;
+	}
 
-	
+	nav {
+		position: absolute;
+		margin-top: 36px !important;
+		font-weight: small;
+		margin-left: 100px !important;
+		font-size: 1px !important;
+	}
+
+	nav ul li {
+		margin-left: -50px !important;
+	}
+
+	body,header , .wrapper,  #dessert-video, div#top-dessert{
+		width: 500px !important;
+	}
+
+	li.feature-1, li.feature-2, li.feature-3 {
+		margin-left: 50px;
+	}
+
+	#primary-content {
+		width: 460px !important;
+	}
+
+	#text-content {
+		width: 420px;
+		margin: 0 auto;
+		margin-left: 22px;
+	}
+
+	div#secondary-content article {
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 60px !important;
+	}
+
+	div.slider-content {
+		margin-left: 24px;
+		width: 420px !important;
+	}
+
+	div#cta  {
+		width: 460px !important;
+	}
 }
